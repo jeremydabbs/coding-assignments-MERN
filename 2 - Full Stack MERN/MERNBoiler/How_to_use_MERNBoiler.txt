@@ -1,0 +1,14 @@
+The following dependencies have already been installed: express, mongoose, axios, cors, bootstrap, mongoose-unique-validator
+
+Node modules need to be reinstalled on the server level and in the client folder (npm install).
+
+Update all instances of "Action" in the server folder to reflect your project.
+
+Also update the routes in the server.js file.
+
+In package.json and package-lock.json, update the "name" field to your project name.
+
+
+To run your project,
+    open a terminal to server level and run "nodemon server.js"
+    open a terminal to client level and run "npm run start"

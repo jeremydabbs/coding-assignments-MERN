@@ -1,0 +1,17 @@
+GET http://localhost:8000/api/jokes/ HTTP/1.1
+
+###
+
+GET http://localhost:8000/api/jokes/:id HTTP/1.1
+
+###
+
+POST http://localhost:8000/api/jokes/new HTTP/1.1
+
+###
+
+PUT http://localhost:8000/api/jokes//update/:id HTTP/1.1
+
+###
+
+DELETE http://localhost:8000/api/jokes/delete/:id HTTP/1.1

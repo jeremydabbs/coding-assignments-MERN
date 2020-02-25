@@ -1,0 +1,17 @@
+GET http://localhost:8000/api/products HTTP/1.1
+
+###
+
+POST http://localhost:8000/api/products/new HTTP/1.1
+Content-Type: application/json
+
+{
+    "title" : "Yoga Ball",
+    "price" : 14.85,
+    "description" : "Fun to bounce on."
+}
+
+###
+
+GET http://localhost:8000/api/products/5e4afd6888cde1254c72c783 HTTP/1.1
+

@@ -1,0 +1,27 @@
+GET http://localhost:8000/api/author HTTP/1.1
+
+###
+
+POST http://localhost:8000/api/author/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "authorName" : "John Steinbeck"
+}
+
+###
+
+GET http://localhost:8000/api/author/5e4c4b4acd654b5544414ab4 HTTP/1.1
+
+###
+
+PUT http://localhost:8000/api/author/5e4c4b4acd654b5544414ab4 HTTP/1.1
+Content-Type: application/json
+
+{
+    "authorName" : "Pearl S. Buck"
+}
+
+###
+
+DELETE http://localhost:8000/api/author/5e4c4b4acd654b5544414ab4 HTTP/1.1
